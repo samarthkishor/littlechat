@@ -2,6 +2,15 @@
 
 A group video chat application built with Phoenix, LiveView, and WebRTC. Want a step-by-step on how it was made? [Check out this blog post.](https://littlelines.com/blog/2020/07/06/building-a-video-chat-app-in-phoenix-liveview)
 
+## Development Environment Setup with Docker and VS Code
+
+* Install Docker on your computer
+* Run `docker-compose up -d` to start the containers
+* Install the [VSCode Remote Dev Container extension](https://github.com/Microsoft/vscode-remote-release)
+* Open VS Code in the project via `code .`. You should see a prompt to re-open the project in a remote container. Click "Reopen in Container"
+* Open a terminal (View > Terminal) to get a shell inside your Alpine Linux container
+* Follow the instructions below to set up a dev environment inside the container
+
 ## Development Environment Setup
 
 To start your Phoenix server:
